@@ -1,11 +1,10 @@
 .set-grid {
   max-width: 320px;
 }
-
 .logo-center {
-margin-top: 15px;
-padding-left: 60px;
-}
+  margin-top: 15px;
+  padding-left: 70px;
+  }
 
 .welcome-row {
 
@@ -16,23 +15,15 @@ margin-right: 50px;
 padding-left: 60px;
 }
 
-
-
 .insert {
-font-size: 12px;
-margin-top: 1%;
-color:lightslategrey;
-}
+  font-size: 12px;
+  margin-top: 1%;
+  color:lightslategrey;
+  }
+  
+  
+  ion-icon {
+  color:rgb(21, 4, 107);
+  }
 
-
-ion-icon {
-color:rgb(21, 4, 107);
-}
-
-.button {
-
-color: rgb(255, 255, 255);
-border-style: initial;
-align-items:flex-end;
-padding-left: 220px;
-}
+  

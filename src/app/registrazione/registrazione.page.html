@@ -1,0 +1,93 @@
+<ion-header>
+
+  <style class="set-grid"></style>
+  
+  <ion-toolbar>
+  
+  <ion-title></ion-title>
+  
+  </ion-toolbar>
+  
+  </ion-header>
+
+
+
+  <ion-content>
+    <form [formGroup]="registerForm">
+  <ion-grid>
+  
+  <ion-row>
+  
+  <ion-col class="ion-text-center">
+  
+  <app-titolo-devskill> </app-titolo-devskill>
+  
+  </ion-col>
+  
+  </ion-row>
+  
+  <ion-row>
+  
+  <ion-col></ion-col>
+  
+  <ion-col>
+  
+  <ion-item>
+  
+  <ion-label for="nome" position="stacked"> Nome </ion-label>
+  <ion-input placeholder="inserisci il tuo nome" id="nome" name="nome" type="text" formControlName="nome"></ion-input>
+  
+  </ion-item>
+  
+  <ion-item>
+  
+  <ion-label for="cognome" position="stacked">Cognome</ion-label>
+  
+  <ion-input placeholder="inserisci il tuo cognome" id="cognome" name="cognome" type="text" formControlName="cognome"></ion-input>
+  
+  </ion-item>
+  
+  
+  <ion-item>
+  
+  <ion-label for="email" position="stacked">E-mail</ion-label>
+  
+  <ion-input placeholder="inserisci il tuo indirizzo E-mail" id="email" name="email" type="text" formControlName="email"></ion-input>
+  
+  </ion-item>
+
+  
+  <ion-item>
+  
+  <ion-label for="password" position="stacked">Password</ion-label>
+  
+  <ion-input placeholder="inserisci la tua password" type="password" id="password" name="password" formControlName="password"></ion-input>
+  
+  </ion-item>
+
+  <ion-item>
+  
+    <ion-label for="password" position="stacked">Ripeti la password</ion-label>
+    
+    <ion-input placeholder="inserisci ancora una volta la tua password" type="password" id="password" name="password" formControlName="password2"></ion-input>
+    
+    </ion-item>
+   
+  
+  <div class="ion-float-right">
+  
+  <app-button-login indirizzo="/login" testo="vai a login"> </app-button-login>
+
+  </div>
+
+  
+  </ion-col>
+  
+  <ion-col></ion-col>
+  
+  </ion-row>
+  
+  </ion-grid>
+</form>
+  </ion-content>
+
